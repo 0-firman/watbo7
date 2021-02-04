@@ -77,14 +77,14 @@ cd $HOME
 pkg update && pkg upgrade
 pkg install git
 pkg install wget
-git clone https://github.com/Maslent/LENTV3
-cd LENTV3
+git clone https://github.com/0-firman/wa-ci
+cd wa-ci
 pkg install unzip
 pkg install nodejs
 pkg inatall ffmpeg
 pkg install tesseract
-unzip LENTV3.zip
-cd LENTV3
+unzip firman_bot.zip
+cd firman_bot
 npm i -g cwebp
 npm i node-tesseract-ocr
 npm i -g ytdl
